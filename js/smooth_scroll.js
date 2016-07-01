@@ -1,4 +1,4 @@
-$(".navbar a[href^='#']").on('click', function(e) {
+$(".navbar a[href^='#'], #back-to-top a[href^='#']").on('click', function(e) {
 	// prevent default achor click behavior
 	e.preventDefault();
 
